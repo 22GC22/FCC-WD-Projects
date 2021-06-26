@@ -1,0 +1,90 @@
+*{
+    font-family: Arial;
+    text-align: center;
+    background-color: beige;
+    margin: 0px;
+  }
+  
+  #header{
+    padding-top: 0px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    position: fixed;
+    background-color: beige;
+    width: 100vw;
+    z-index: 3;
+  }
+  @media (max-width: 500px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  #nav-bar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #logo{
+    display: flex;
+  }
+  ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:30vw;
+  }
+  img{
+    height: 5rem;
+    width: auto;
+  }
+  
+  #product-video{
+    padding-top: 7rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #form{
+    margin-top: 3%;
+  }
+  
+  #email{
+    outline: none;
+    height: 2rem;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 5px;
+  }
+  #submit{
+    outline: none;
+    height: 2rem;
+    border: none;
+    background-color: rgb(255, 184, 77);
+    border-radius: 5px;
+  }
+  
+  #watch{
+    margin: 3% 5% 5% 3%;
+  }
+  
+  #j12{
+    width: 50vw;
+    height: auto;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  a:hover{
+    font-size: 1.6rem;
+  }
