@@ -1,0 +1,40 @@
+    #main{
+      margin: 0px 0px 0px 0px;
+      width: 100%;
+      background-color: beige;
+      font-family: system-ui;
+      text-align: center;
+    }
+    #img-div{
+      text-align: center;
+    }
+    #image{
+    /*   width: 70vw; */
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: auto;
+    }
+    #title{
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    #tribute-info{
+      margin: 5%;
+      text-align: justify;
+      font-weight: 300;
+      font-size: 1.2rem
+    }
+    
+    #tribute-link{
+      margin: 3%;
+      font-size: 1.4rem;
+      color: orangered;
+      transition: all 0.2s;
+    }
+    
+    #tribute-link:hover{
+      font-size: 1.6rem;
+    }
+    
