@@ -1,0 +1,66 @@
+body{
+    color: black;
+    font-family: Arial;
+    background-image: linear-gradient( 
+  115deg
+  , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url('https://c0.wallpaperflare.com/preview/918/958/450/adult-blond-hair-blurred-background-businesspeople.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 1.4rem;
+    color: white;
+  }
+  h1,p{
+    text-align: center;
+  }
+  form{
+    text-align: left;
+  }
+  button{
+    text-align: center;
+    height: 3rem;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+    font-family: Arial;
+  }
+  
+  #survey-form{
+    background-color: rgb(51, 0, 128);
+    opacity: 0.75;
+    margin: 0px 15vw 0px 15vw;
+    padding: 3%;
+    border-radius: 4%;
+  }
+  
+  .form-control{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: grey;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 3rem;
+    font-family: Arial;
+    font-size: 1.1rem;
+    color: grey;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #dropdown{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: grey;
+    border-radius: 5px;
+    border: none;
+  }

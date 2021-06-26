@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <title>Survey</title>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <link rel="stylesheet" href="c2style.css">
+    </head>
+    <body>
+        <h1 id="title">Survey form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+        <form id="survey-form" class="container">
+        <div id="name-div">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required=""><br><br>
+        </div>
+        <div id="email-div">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required=""><br><br>
+            </div>
+            <div id="number-div">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"><br><br>
+            </div>
+        <lable>Your current position:</lable><br>
+        <select id="dropdown">
+        <option value="" disabled selected>Select your option</option>
+        <option name="1" value="1" id="dropdown">Student</option>
+        <option name="2" value="2" id="dropdown">Professional</option>
+        <option name="3" value="3" id="dropdown">Prefer Not to say</option>
+        </select><br><br>
+        <lable>Gender:</lable><br>
+        <br>
+        <input type="radio" value="male" name="Gender">Male<br>
+        <input type="radio" value="female" name="Gender">Female<br>
+        <input type="radio" value="other" name="Gender">Other<br><br>
+        <lable>Hobbies:</lable><br>
+        <br>
+        <input type="checkbox" value="draw">Drawing<br>
+        <input type="checkbox" value="sing">Singing<br>
+        <input type="checkbox" value="paint">Painting<br>
+        <input type="checkbox" value="dance">Dancing<br><br>
+        <lable>Additional Comments:</lable><br>
+        <textarea>Please enter anything else that you would like to specify...</textarea><br>
+        <br>
+        <button id="submit">Submit</button>
+        </form>
+        <br>
+        <br>
+    </body>
+</html>
